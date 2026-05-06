@@ -13,10 +13,10 @@ from tqdm import tqdm
 # SETTINGS
 # ======================
 
-input_folder = r"F:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260429\DCIM"
+input_folder = r"F:\_RPA_Processing\Stage0\PROJECT_NAME\DCIM"
 
 # ✅ Reference image (correct exposure anchor)
-reference_image = r"F:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260429\DCIM\IMG_0001.DNG"
+reference_image = r"F:\_RPA_Processing\Stage0\PROJECT_NAME\DCIM\IMG_0001.DNG"
 
 # ✅ Brightness measurement
 use_percentile = True
