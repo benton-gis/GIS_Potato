@@ -31,9 +31,6 @@ BATCH_SIZE = 25   # ✅ critical tuning knob (20–50 ideal)
 # SETTINGS
 # ======================
 
-#input_folder = r"H:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260505_1\DCIM"
-#reference_image = r"H:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260505_1\DCIM\DJI_202605051021_001_mcalinden1efpc\DJI_20260505103241_0342_V.DNG"
-
 input_folder = r"H:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260505_2\DCIM"
 reference_image = r"H:\_RPA_Processing\Stage0\FPC_CARBON2_RTK3_20260505_2\DCIM\DJI_202605051053_002_FMBAerialOperations-mcalinden1ffpc\DJI_20260505105926_0164_V.DNG"
 
