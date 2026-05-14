@@ -1,5 +1,7 @@
 ## Run in GRASS Console
-v.import input=F:\WRI_Canopy_Height_Model\gpkg\aoi.gpkg layer=aoi output=AOIregion
+v.import input=$:\WRI_Canopy_Height_Model\gpkg\aoi.gpkg layer=aoi output=AOIregion
+
+v.import input=%:\map_data\common\WRI_Canopy_Height_Model\gpkg\aoi.gpkg layer=aoi output=AOIregion
 
 ## Download the file to the working directory (run from CMD)
 e:
