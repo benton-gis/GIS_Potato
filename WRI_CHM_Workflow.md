@@ -11,5 +11,7 @@ aws s3 cp --no-sign-request s3://dataforgood-fb-data/forests/v1/alsgedi_global_v
 ## Run in GRASS Console. 
 v.import input=F:\WRI_Canopy_Height_Model\aws_data\tiles.geojson output=tiles
 
+v.import input=E:\map_data\common\WRI_Canopy_Height_Model\aws_data\tiles.geojson output=tiles
+
 # Run in GRASS Python Code Editor
 get_wri_chm_from_aws.py
